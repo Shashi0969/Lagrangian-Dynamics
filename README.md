@@ -49,6 +49,6 @@ The simulation uses a **Feynman Path Integral**–style approach:
 
 ## ⚙️ Requirements
 Install the dependencies with:
-```bash
+```python
 pip install numpy matplotlib scipy symmpy 
 ```
