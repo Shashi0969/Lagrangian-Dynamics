@@ -29,7 +29,7 @@ def lagrange_multiplier_method(objective, constraint, variables):
 # Example usage
 if __name__ == "__main__":
     # Define variables
-    x, y = sp.symbols('x y')
+    x, y = sp.symbols('x y ')
     
     # Objective function: f(x, y) = x^2 + y^2
     objective_function = x**2 + y**2
