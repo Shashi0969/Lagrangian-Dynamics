@@ -22,4 +22,4 @@ min f(x1, x2, ..., xn)   subject to   g(x1, x2, ..., xn) = 0
 lagrange_multiplier(objective, constraint, variables)
 ```
 
-# Least-Action_SHO
+# Least_Action_SHO
