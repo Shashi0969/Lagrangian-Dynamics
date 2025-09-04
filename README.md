@@ -1,7 +1,5 @@
 # Lagrange-Multiplier
-
 A Python utility for solving **constrained optimization problems** using the **Lagrange Multiplier method**.  
-
 This tool leverages [SymPy](https://www.sympy.org/) to symbolically compute solutions to optimization problems of the form:  
 
 min f(x1, x2, ..., xn)   subject to   g(x1, x2, ..., xn) = 0
@@ -23,12 +21,12 @@ lagrange_multiplier(objective, constraint, variables)
 ```
 
 # Least_Action_SHO
-# Principle of Least Action — Harmonic Oscillator
+Principle of Least Action — Harmonic Oscillator:
 
 This project applies the **principle of Least Action** to obtain the path that minimizes the action relative to all other possible paths between the same points, for a **harmonic oscillator system** with potential:
 
 \[
-V(x) = \tfrac{1}{2} k x^2
+V(x) = 1/2 kx^2
 \]
 
 The simulation uses a **Feynman Path Integral**–style approach:  
@@ -47,7 +45,10 @@ The simulation uses a **Feynman Path Integral**–style approach:
 
 ---
 
+# 
+
 ## ⚙️ Requirements
 Install the dependencies with:
 ```bash
-pip install numpy matplotlib scipy
+pip install numpy matplotlib scipy symmpy 
+```
