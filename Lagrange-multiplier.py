@@ -28,11 +28,12 @@ def lagrange_multiplier_method(objective, constraint, variables):
 
 # Example usage
 if __name__ == "__main__":
+    """ Call the function with an example """
     # Define variables
     x, y = sp.symbols('x y ')
     
     # Objective function: f(x, y) = x^2 + y^2
-    objective_function = x**2 + y**2
+    objective_function = input("Enter the objective function to be optiimized: ") # x**2 + y**2
     
     # Constraint: g(x, y) = x + y - 1 = 0
     constraint_equation = x + y - 1
