@@ -52,7 +52,7 @@ pip install numpy sympy matplotlib scipy pandas seaborn
 
 ---
 
-## Features
+## ✨ Features
 
 ### 🎯 **Core Capabilities**
 - **Dual Solution Methods**: Symbolic (SymPy) + Numerical (SciPy) solvers
