@@ -25,11 +25,6 @@ cd advanced-lagrange-solver
 # Install required dependencies
 pip install numpy sympy matplotlib scipy pandas seaborn
 
-
-
-
-
-
 # 🎯 Advanced Lagrange Multiplier Solver
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
