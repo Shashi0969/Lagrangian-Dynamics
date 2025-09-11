@@ -38,7 +38,7 @@ pip install numpy sympy matplotlib scipy pandas seaborn
 
 ## 📖 Table of Contents
 
-- [✨ Features](#--features)
+- [ Features](#--features)
 - [🚀 Quick Start](#-quick-start)
 - [📦 Installation](#-installation)
 - [🎮 Interactive Demo](#-interactive-demo)
