@@ -1,4 +1,4 @@
-# Lagrange-Multiplier
+# Lagrange-Multiplier.py
 A Python utility for solving **constrained optimization problems** using the **Lagrange Multiplier method**.  
 This tool leverages [SymPy](https://www.sympy.org/) to symbolically compute solutions to optimization problems of the form:  
 
@@ -52,3 +52,30 @@ Install the dependencies with:
 ```python
 pip install numpy matplotlib scipy symmpy 
 ```
+
+# Advanced Lagrange Multiplier Solver
+
+A comprehensive Python implementation for solving constrained optimization problems using the method of Lagrange multipliers with advanced numerical techniques, visualization, and analysis capabilities.
+
+## Features
+
+- **Multiple Constraint Handling**: Solve problems with multiple equality constraints
+- **Dual Solution Methods**: Both symbolic (exact) and numerical (approximate) solving approaches
+- **Interactive Visualization**: 2D contour plots and 3D surface visualizations
+- **Solution Verification**: Automatic verification against KKT conditions
+- **Comprehensive Analysis**: Detailed solution analysis with constraint violation checking
+- **Export Capabilities**: Export results to JSON and HTML report formats
+- **Error Handling**: Robust error handling and logging
+- **Batch Processing**: Solve multiple optimization problems in batch mode
+- **Sensitivity Analysis**: Analyze how solutions change with constraint parameters
+- **Performance Benchmarking**: Compare different solution methods
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/advanced-lagrange-solver.git
+cd advanced-lagrange-solver
+
+# Install required dependencies
+pip install numpy sympy matplotlib scipy pandas seaborn
